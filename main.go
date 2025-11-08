@@ -5,7 +5,5 @@ import (
 )
 
 func main() {
-	wg.ExecTimingHTTPCalls()
-	grg.ExecValidateSigs()
-	tc.ExecNextMovie()
+	usp.ExecBoundedCache()
 }
